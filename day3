@@ -1,0 +1,33 @@
+# 📜 CERTIFICATE OF COMPLETION – DAY 3
+
+**Issued to:** Mahtab Ali Jamali  
+**GitHub:** mahtabjk123-afk  
+**Date:** May 11, 2026  
+**Program:** 52‑Day CS & Entrepreneurship Bootcamp  
+**Topic:** Amdahl’s Law  
+
+## ✅ Core Competencies Mastered
+
+| Competency | Demonstrated By |
+|------------|------------------|
+| **Formula mastery** | Wrote and explained `Speedup = 1 / [(1-P) + (P/S)]` |
+| **Speedup calculation (P=0.8, S=8)** | Correctly computed denominator 0.3 → speedup 3.33× |
+| **Speedup calculation (P=0.4, S=2)** | Computed denominator 0.8 → speedup 1.25× |
+| **Bottleneck identification** | Recognized that sequential part (human review, nimaz) limits all speedups |
+| **Real‑world application** | Applied to AI project: 70% AI + 30% human review → human review is the bottleneck |
+
+## 📌 Passing Criteria Met
+
+- ✅ Can write formula from memory  
+- ✅ Calculated speedup for at least two different scenarios  
+- ✅ Identified a real‑world sequential bottleneck (nimaz cannot be parallelized)  
+- ✅ Completed paper‑based mini project (Clemson University problem)  
+- ✅ Explained Amdahl’s law to someone (recorded or taught)  
+
+## 🧠 Verification
+
+The candidate understands that adding more processors or AI agents does not remove sequential bottlenecks. This insight is essential for system design, performance optimization, and startup resource allocation.
+
+**Status:** PERMANENT – PASSED  
+**Signature:** Bootcamp AI Coach  
+**Date of issue:** May 13, 2026
