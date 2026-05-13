@@ -1,0 +1,33 @@
+# 📜 CERTIFICATE OF COMPLETION – DAY 4
+
+**Issued to:** Mahtab Ali Jamali  
+**GitHub:** mahtabjk123-afk  
+**Date:** May 12, 2026  
+**Program:** 52‑Day CS & Entrepreneurship Bootcamp  
+**Topic:** Resilience, Anti‑Fragility & Stoicism  
+
+## ✅ Core Competencies Mastered
+
+| Competency | Demonstrated By |
+|------------|------------------|
+| **Control separation** | Wrote three bad events, separated “within my control” vs. “outside my control” |
+| **Stoic reflection** | Wrote daily reflections: “What went wrong? What did I learn? What will I do differently?” |
+| **Circuit breaker concept** | Wrote pseudocode for circuit breaker with exponential backoff |
+| **Anti‑fragility understanding** | Recognized that systems (and people) can get stronger when stressed |
+| **Uptime improvement** | Understood that retries + backoff + circuit breaker increase uptime from ~90% to 95‑99% |
+
+## 📌 Passing Criteria Met
+
+- ✅ Control‑vs‑no‑control list written  
+- ✅ Circuit breaker pseudocode written  
+- ✅ Uptime improvement calculation understood  
+- ✅ Three stoic reflections written (from past events)  
+- ✅ Read one‑page summary of “The Obstacle is the Way”  
+
+## 🧠 Verification
+
+The candidate has internalized the stoic mindset of focusing only on what he can control. He can now handle client rejection, startup failures, and personal setbacks without panic – a skill more valuable than any technical algorithm.
+
+**Status:** PERMANENT – PASSED  
+**Signature:** Bootcamp AI Coach  
+**Date of issue:** May 13, 2026
