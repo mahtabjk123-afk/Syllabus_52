@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Learning Certificate</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1e2b3a, #0f1a24);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Georgia', 'Times New Roman', serif;
+            padding: 20px;
+        }
+
+        .certificate {
+            background: #fef8e7;
+            background-image: radial-gradient(circle at 10% 20%, rgba(215, 185, 115, 0.05) 2%, transparent 2.5%);
+            background-size: 28px 28px;
+            width: 850px;
+            max-width: 100%;
+            padding: 50px 40px;
+            border: 12px double #b8860b;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3), 0 0 0 8px #fef8e7, 0 0 0 14px #b8860b;
+            text-align: center;
+            position: relative;
+            transition: all 0.3s;
+        }
+
+        .certificate::before {
+            content: "🏅";
+            font-size: 50px;
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #fef8e7;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-family: 'Impact', 'Arial Black', sans-serif;
+            letter-spacing: 3px;
+            color: #3b2a1f;
+            margin-top: 20px;
+            border-bottom: 2px solid #d4af37;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #5a3e1b;
+            margin: 15px 0 25px;
+            font-style: italic;
+        }
+
+        .presented {
+            font-size: 18px;
+            margin: 20px 0 10px;
+            letter-spacing: 2px;
+        }
+
+        .recipient {
+            font-size: 44px;
+            font-family: 'Brush Script MT', cursive, serif;
+            color: #9b4b1a;
+            margin: 15px 0;
+            background: linear-gradient(145deg, #c28a3e, #8b5a2b);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: #8b5a2b;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .achievement {
+            font-size: 20px;
+            margin: 20px 30px;
+            line-height: 1.5;
+            border-left: 4px solid #d4af37;
+            border-right: 4px solid #d4af37;
+            padding: 15px 20px;
+            background: #fffcf0;
+        }
+
+        .achievement p {
+            margin: 8px 0;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        .signatures {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px dashed #b8860b;
+        }
+
+        .signature {
+            text-align: center;
+            width: 40%;
+        }
+
+        .signature .line {
+            width: 200px;
+            max-width: 100%;
+            height: 2px;
+            background: #3b2a1f;
+            margin: 10px auto;
+        }
+
+        .date {
+            margin-top: 25px;
+            font-size: 14px;
+            color: #3b2a1f;
+            font-family: monospace;
+        }
+
+        .stamp {
+            position: absolute;
+            bottom: 50px;
+            right: 60px;
+            opacity: 0.7;
+            font-size: 55px;
+            transform: rotate(-15deg);
+            font-family: monospace;
+            color: #b8860b;
+            border: 3px double #b8860b;
+            padding: 8px 12px;
+            border-radius: 50%;
+            background: #fef8e7;
+        }
+
+        @media (max-width: 650px) {
+            .certificate { padding: 30px 20px; }
+            h1 { font-size: 32px; }
+            .recipient { font-size: 32px; }
+            .stamp { font-size: 35px; bottom: 20px; right: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate">
+        <h1>🏆 CERTIFICATE OF ACHIEVEMENT</h1>
+        <div class="subtitle">Official Recognition for AI Engineering Efforts</div>
+
+        <div class="presented">This certificate is proudly presented to</div>
+        <div class="recipient">Mahtab (The Debugger)</div>
+
+        <div class="achievement">
+            <strong>★ for successfully completing the Day of Real AI Learning ★</strong>
+            <p>✓ Installed and used external Python libraries (requests).</p>
+            <p>✓ Mastered PATH troubleshooting & command-line debugging.</p>
+            <p>✓ Fixed API errors: Model decommissioned → switched to working models.</p>
+            <p>✓ Understood API keys, headers, status codes, and JSON responses.</p>
+            <p>✓ Ran first AI agent with Groq API and built confidence to experiment.</p>
+            <p>★ PROGRESS: From "copy-paste" to active debugging & code modification.</p>
+        </div>
+
+        <div class="signatures">
+            <div class="signature">
+                <div class="line"></div>
+                <strong>AI Mentor</strong><br>
+                <span style="font-size:12px">Groq AI Assistant</span>
+            </div>
+            <div class="signature">
+                <div class="line"></div>
+                <strong>Learner's Proof</strong><br>
+                <span style="font-size:12px">Self-attested effort</span>
+            </div>
+        </div>
+
+        <div class="date">
+            🗓️ Issued: June 1, 2026 &nbsp;&nbsp;|&nbsp;&nbsp; ✅ 100% Guarantee of Completion
+        </div>
+
+        <div class="stamp">
+            ✔️ SEAL
+        </div>
+    </div>
+</body>
+</html>
